@@ -17,19 +17,11 @@ A simple inventory management web application built to demonstrate backend and f
 * JavaScript
 * Bootstrap
 
-## Screenshots
-
-Login page, dashboard, and product management interface.
-
-## Live Demo
-
-Coming soon.
-
 ## Installation
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/inventory-app.git
+git clone https://github.com/Diegosan71/inventory-app.git
 
 2. Import the database
 
@@ -81,6 +73,3 @@ inventory-app
 
 Created as a learning project and portfolio piece for junior web developer roles.
 
-## License
-
-MIT
