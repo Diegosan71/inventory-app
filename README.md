@@ -1,21 +1,86 @@
 # Inventory Manager (PHP)
 
-Simple inventory management system built with PHP and MySQL.
+A simple inventory management web application built to demonstrate backend and frontend web development skills.
 
 ## Features
 
-- Login system
-- Product management (CRUD)
-- Stock tracking
-- Search products
+* User login system with sessions
+* Product management (Create, Read, Update, Delete)
+* Stock alert system for low inventory
+* Real-time product search
+* Clean responsive UI
 
 ## Tech Stack
 
-- PHP
-- MySQL
-- JavaScript
-- HTML / CSS
+* PHP
+* MySQL
+* JavaScript
+* Bootstrap
+
+## Screenshots
+
+Login page, dashboard, and product management interface.
+
+## Live Demo
+
+Coming soon.
+
+## Installation
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/inventory-app.git
+
+2. Import the database
+
+Create a database in MySQL and run:
+
+CREATE TABLE products (
+id INT AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(100),
+price DECIMAL(10,2),
+stock INT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE users (
+id INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(50),
+password VARCHAR(255)
+);
+
+3. Configure database connection
+
+Edit:
+
+config/database.php
+
+4. Run the project locally
+
+Place the project inside your local server directory (XAMPP / Laragon / etc).
+
+Example:
+
+http://localhost/inventory-app/login.php
+
+## Project Structure
+
+inventory-app
+├── config
+│   └── database.php
+├── auth
+│   └── logout.php
+├── public
+│   └── dashboard.php
+├── add_product.php
+├── edit_product.php
+├── delete_product.php
+└── login.php
 
 ## Author
 
-Diego
+Created as a learning project and portfolio piece for junior web developer roles.
+
+## License
+
+MIT
