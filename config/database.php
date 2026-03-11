@@ -2,10 +2,10 @@
 
 class Database {
 
-    private $host = "localhost";
-    private $db_name = "inventory_db";
-    private $username = "root";
-    private $password = "root";
+    private $host = "sql309.infinityfree.com";
+    private $db_name = "if0_41353161_inventory_db";
+    private $username = "if0_41353161";
+    private $password = "password";
     public $conn;
 
     public function connect() {
