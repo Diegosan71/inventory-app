@@ -62,8 +62,6 @@ inventory-app
 │   └── logout.php
 ├── config
 │   └── database.php
-├── controllers
-├── models
 ├── public
 │   ├── add_product.php
 │   ├── dashboard.php
@@ -77,10 +75,7 @@ inventory-app
 Notes:
 
 - All public-facing pages (dashboard, product management) are inside `public/`.
-- `auth/` handles login/logout.  
-- `controllers/` contains backend logic for handling requests.  
-- `models/` contains classes for database entities.  
-- `views/` contains templates for rendering UI.  
+- `auth/` handles login/logout.   
 
 ## Usage
 
